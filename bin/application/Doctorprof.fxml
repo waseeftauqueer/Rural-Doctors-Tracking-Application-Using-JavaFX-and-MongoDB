@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="970.0" styleClass="gradient-background" stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="66.0" fitWidth="65.0" layoutX="891.0" layoutY="22.0">
+         <image>
+            <Image url="@../../../../Desktop/6954dee6-826c-4ead-ac19-d4f28b45435b.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="790.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Account">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="23.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RURALDOC TRACK">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="44.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bringing care to everyone">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <ComboBox layoutX="43.0" layoutY="171.0" prefHeight="36.0" prefWidth="347.0" />
+      <TableView layoutX="41.0" layoutY="226.0" prefHeight="382.0" prefWidth="354.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="ID" />
+          <TableColumn prefWidth="136.80001831054688" text="Name" />
+            <TableColumn prefWidth="140.0" text="Specalization" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="428.0" fitWidth="249.0" layoutX="686.0" layoutY="173.0">
+         <image>
+            <Image url="@../../../../Desktop/0ac736f8-2765-44ad-9a2d-b077a15bef3c.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="45.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SELECT LOCATION">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="343.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DOCTOR PROFILES">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Text>
+      <TextField layoutX="494.0" layoutY="171.0" style="-fx-background-radius: 50;" />
+      <Text fill="WHITE" layoutX="454.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search">
+         <font>
+            <Font name="System Bold" size="9.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="13.0" fitWidth="12.0" layoutX="437.0" layoutY="179.0">
+         <image>
+            <Image url="@../../../../Desktop/download-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="443.0" layoutY="234.0" prefHeight="99.0" prefWidth="206.0" />
+      <Text fill="WHITE" layoutX="445.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Results">
+         <font>
+            <Font name="System Bold" size="9.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
